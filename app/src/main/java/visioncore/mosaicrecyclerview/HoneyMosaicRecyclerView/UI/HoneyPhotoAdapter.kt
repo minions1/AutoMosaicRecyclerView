@@ -23,7 +23,6 @@ class HoneyPhotoAdapter(
 	override fun onBindViewHolder(holder: ViewHolder?, position: Int) {
 		
 		val cell = holder!!.itemView as HoneyImageView
-		
 		cell.model = HoneyImageModel(dataset[position])
 		
 	}
