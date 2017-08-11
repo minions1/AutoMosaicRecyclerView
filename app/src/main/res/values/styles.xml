@@ -1,0 +1,8 @@
+<resources>
+    <style name="MosaicRecyclerView" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <!--页面跳转不要动画-->
+        <item name="android:windowAnimationStyle">@null</item>
+        <!--关闭Window背景绘制-->
+    </style>
+</resources>
